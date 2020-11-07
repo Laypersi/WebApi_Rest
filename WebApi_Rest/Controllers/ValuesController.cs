@@ -14,7 +14,7 @@ namespace WebApi_Rest.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(new string[] { "value1", "value2" });
+            return Ok(new string[] { "value1", "value2" });  /// solo para pruebas
         }
 
         // GET api/values/5
