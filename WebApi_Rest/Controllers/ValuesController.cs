@@ -14,6 +14,7 @@ namespace WebApi_Rest.Controllers
         [HttpGet]
         public IActionResult Get()
         {
+          //se agrega para realizar mas pruebas
             return Ok(new string[] { "value1", "value2" });  /// solo para pruebas
         }
 
